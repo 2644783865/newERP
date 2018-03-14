@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infobasis.Data", "Infobasis.Data\Infobasis.Data.csproj", "{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infobasis.Web", "Infobasis.Web\Infobasis.Web.csproj", "{37F4D9A7-DA88-4EFE-8D44-749AF29E5935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infobasis.Api", "Infobasis.Api\Infobasis.Api.csproj", "{B4E81C8E-9276-4E78-A7AF-9D53E21CF24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F4D9A7-DA88-4EFE-8D44-749AF29E5935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F4D9A7-DA88-4EFE-8D44-749AF29E5935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F4D9A7-DA88-4EFE-8D44-749AF29E5935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F4D9A7-DA88-4EFE-8D44-749AF29E5935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E81C8E-9276-4E78-A7AF-9D53E21CF24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E81C8E-9276-4E78-A7AF-9D53E21CF24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E81C8E-9276-4E78-A7AF-9D53E21CF24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E81C8E-9276-4E78-A7AF-9D53E21CF24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
