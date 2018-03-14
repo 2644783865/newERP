@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" CodeBehind="Popup.master.cs" Inherits="Infobasis.Web.PageMaster.Popup" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="/res/js/vue.js"></script>
+    <script src="/res/js/moment.js"></script>
+    <script type="text/javascript">
+        var pageSetting = {};
+
+        pageSetting.apiUrl = '<%# Infobasis.Web.Global.WebApiRootUrl %>';
+        pageSetting.siteRootPath = '<%# Infobasis.Web.Global.SiteRootPath %>';
+
+        function closeAndRefreshTopWindow(queryString) {
+            refreshTopWindow(queryString);
+            F.activeWindow.hide();
+        }
+
+        function getQueryString(name) {
+            var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+
+        function refreshTopWindow(queryString) {
+            var activeTabId = getQueryString("innerActiveTab");
+            if (activeTabId) {
+                queryString = queryString || '';
+                queryString = queryString + 'innerActiveTab=' + activeTabId;
+            }
+            //console.log(activeTabId);
+            //console.log(queryString);
+            top.window.refreshWindow(queryString);
+        }
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

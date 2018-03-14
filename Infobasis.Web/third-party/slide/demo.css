@@ -1,0 +1,68 @@
+#main {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: url(img/panel.jpg) repeat-x bottom center #ffffff;
+    height: 445px;
+}
+
+#gallery {
+    width: 920px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#slides {
+    height: 400px;
+    width: 920px;
+    overflow: hidden;
+}
+
+.slide {
+    float: left;
+}
+
+#menu {
+    height: 45px;
+}
+
+    #menu ul {
+        font-size: 0;
+    }
+
+    #menu li {
+        font-size: 13px;
+        width: 60px;
+        display: inline-block;
+        list-style: none;
+        height: 45px;
+        overflow: hidden;
+    }
+
+        #menu li.inact:hover {
+            background: url(img/pic_bg.png) repeat;
+        }
+
+        #menu li.act, #menu li.act:hover {
+            background: url(img/active_bg.png) no-repeat;
+        }
+
+            #menu li.act a {
+                cursor: default;
+            }
+
+    #menu .fbar {
+        width: 2px;
+        background: url(img/divider.png) no-repeat right;
+    }
+
+    #menu li a {
+        display: block;
+        background: url(img/divider.png) no-repeat right;
+        height: 45px;
+        padding-top: 10px;
+    }
+
+    #menu a img {
+        border: none;
+    }

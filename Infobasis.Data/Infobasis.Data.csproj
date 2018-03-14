@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64DD030D-F014-44A5-AA63-C2A8E4A71AF4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infobasis.Data</RootNamespace>
+    <AssemblyName>Infobasis.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.Extended, Version=6.0.0.0, Culture=neutral, PublicKeyToken=05b7e29bdd433584, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.168\lib\net45\EntityFramework.Extended.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JWT, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JWT.1.3.4\lib\3.5\JWT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\AsyncHelper.cs" />
+    <Compile Include="DataAccess\Change.cs" />
+    <Compile Include="DataAccess\DBProvider.cs" />
+    <Compile Include="DataAccess\InfobasisDataSource.cs" />
+    <Compile Include="DataAccess\GenericRepository.cs" />
+    <Compile Include="DataAccess\IInfobasisDataSource.cs" />
+    <Compile Include="DataAccess\ISqlDataSource.cs" />
+    <Compile Include="DataAccess\QueryExtensions.cs" />
+    <Compile Include="DataAccess\SerializableXmlDocument.cs" />
+    <Compile Include="DataAccess\SqlDataSource.cs" />
+    <Compile Include="DataAccess\UnitOfWork.cs" />
+    <Compile Include="DataEntity\BaseEntity.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplate.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateBasePrice.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateInclude.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateItem.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateItemMaterial.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateRate.cs" />
+    <Compile Include="DataEntity\Budget\BudgetTemplateWaterElec.cs" />
+    <Compile Include="DataEntity\Budget\MaterialType.cs" />
+    <Compile Include="DataEntity\Budget\MaterialTypeList.cs" />
+    <Compile Include="DataEntity\Business\BudgetTemplateData.cs" />
+    <Compile Include="DataEntity\Business\BudgetTemplateSpace.cs" />
+    <Compile Include="DataEntity\Business\Client.cs" />
+    <Compile Include="DataEntity\Business\ClientTrace.cs" />
+    <Compile Include="DataEntity\Business\HouseInfo.cs" />
+    <Compile Include="DataEntity\Business\SMSSendHistory.cs" />
+    <Compile Include="DataEntity\Business\SMSTemplate.cs" />
+    <Compile Include="DataEntity\Business\UserGoal.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeAdjust.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeFixPay.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeFixPayAdjust.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeWorkExperience.cs" />
+    <Compile Include="DataEntity\IKeyID.cs" />
+    <Compile Include="DataEntity\Material\Brand.cs" />
+    <Compile Include="DataEntity\Material\Material.cs" />
+    <Compile Include="DataEntity\Material\MaterialUnit.cs" />
+    <Compile Include="DataEntity\Material\VendorContact.cs" />
+    <Compile Include="DataEntity\OA\Announcement.cs" />
+    <Compile Include="DataEntity\OA\CloudFile.cs" />
+    <Compile Include="DataEntity\OA\CloudFolder.cs" />
+    <Compile Include="DataEntity\OA\Meeting.cs" />
+    <Compile Include="DataEntity\OA\MeetingTask.cs" />
+    <Compile Include="DataEntity\System\EntityList.cs" />
+    <Compile Include="DataEntity\System\EntityListValue.cs" />
+    <Compile Include="DataEntity\System\SystemNum.cs" />
+    <Compile Include="DataEntity\System\City.cs" />
+    <Compile Include="DataEntity\System\Company.cs" />
+    <Compile Include="DataEntity\System\DBErrorLog.cs" />
+    <Compile Include="DataEntity\System\Department.cs" />
+    <Compile Include="DataEntity\System\Email.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeBank.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeContract.cs" />
+    <Compile Include="DataEntity\Employee\EmployeeEducation.cs" />
+    <Compile Include="DataEntity\System\ErrorLog.cs" />
+    <Compile Include="DataEntity\System\FindPassword.cs" />
+    <Compile Include="DataEntity\Import\Import.cs" />
+    <Compile Include="DataEntity\Import\ImportHoldData.cs" />
+    <Compile Include="DataEntity\Import\ImportTemplateColumn.cs" />
+    <Compile Include="DataEntity\System\JobRole.cs" />
+    <Compile Include="DataEntity\System\MessageHistory.cs" />
+    <Compile Include="DataEntity\System\MessageQueue.cs" />
+    <Compile Include="DataEntity\System\ModulePermissionRole.cs" />
+    <Compile Include="DataEntity\System\Notification.cs" />
+    <Compile Include="DataEntity\System\NotificationReceiver.cs" />
+    <Compile Include="DataEntity\System\NotificationSetting.cs" />
+    <Compile Include="DataEntity\System\NotificationSettingReceiver.cs" />
+    <Compile Include="DataEntity\System\PermissionRole.cs" />
+    <Compile Include="DataEntity\System\Province.cs" />
+    <Compile Include="DataEntity\System\Module.cs" />
+    <Compile Include="DataEntity\System\SystemAdmin.cs" />
+    <Compile Include="DataEntity\TenantEntity.cs" />
+    <Compile Include="DataEntity\System\ThirdpartyAccessTokenInfo.cs" />
+    <Compile Include="DataEntity\System\User.cs" />
+    <Compile Include="DataEntity\System\UserPermissionRole.cs" />
+    <Compile Include="DataEntity\Material\Vendor.cs" />
+    <Compile Include="DataMapper\Employee\EmployeeBankMapper.cs" />
+    <Compile Include="DataMapper\OA\CloudFolderMapper.cs" />
+    <Compile Include="DataMapper\System\DepartmentMapper.cs" />
+    <Compile Include="DataMapper\System\ModuleMapper.cs" />
+    <Compile Include="DataMapper\System\UserMapper.cs" />
+    <Compile Include="DataMultitenant\Configuration.cs" />
+    <Compile Include="DataMultitenant\TenantAwareAttribute.cs" />
+    <Compile Include="DataMultitenant\TenantCommandInterceptor.cs" />
+    <Compile Include="DataMultitenant\TenantCommandTreeInterceptor.cs" />
+    <Compile Include="DataMultitenant\TenantQueryVisitor.cs" />
+    <Compile Include="DBContext\InfobasisContext.cs" />
+    <Compile Include="DBContext\InfobasisContextMigrationConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataEntity\Finance\" />
+    <Folder Include="DataMapper\Import\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

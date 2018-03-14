@@ -1,0 +1,518 @@
+2017-03-11 21:48:43,481  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:10:02,707  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:13:52,121  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:15:37,948  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:21:38,402  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:21:49,810  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:23:31,004  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-11 22:31:45,129  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "utdYMWqZvhYnH3V94YAd0iExQRmNGo4e09ooV90HDKK/7S4jkmOPdh2izQTqc3WIc8rVa1devFMiOeFsXgpmPzUQS9Ey/BpHp/B/…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3RieENvbXBhbnlDb2RlIjp7IlRleHQiOiJJQk0ifSwiV2luZG93MV9TaW1wbGVGb3JtMV90…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:31:45 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1417
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: Hm_lvt_8875c662941dbf07e39c556c8d97615f=1474987910; Abp.Localization.CultureName=ja; ASP.NET_SessionId=wc2hj1vnfhbhlnndyx2xh1f1; MenuStyle_Pro=tree; MenuMode_Pro=large; Theme_Pro=bootstrap_pure; __ANTICSRF=7eeff3ee34bf4cf1a68883000fe73230; userCompanyInfo=companyCode=system&userName=sysadmin; userKey=companyCode=IBM&userName=admin
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 233
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:31:49,028  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "utdYMWqZvhYnH3V94YAd0iExQRmNGo4e09ooV90HDKK/7S4jkmOPdh2izQTqc3WIc8rVa1devFMiOeFsXgpmPzUQS9Ey/BpHp/B/…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3RieENvbXBhbnlDb2RlIjp7IlRleHQiOiJJQk0ifSwiV2luZG93MV9TaW1wbGVGb3JtMV90…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:31:49 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1417
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: Hm_lvt_8875c662941dbf07e39c556c8d97615f=1474987910; Abp.Localization.CultureName=ja; ASP.NET_SessionId=wc2hj1vnfhbhlnndyx2xh1f1; MenuStyle_Pro=tree; MenuMode_Pro=large; Theme_Pro=bootstrap_pure; __ANTICSRF=7eeff3ee34bf4cf1a68883000fe73230; userCompanyInfo=companyCode=system&userName=sysadmin; userKey=companyCode=IBM&userName=admin
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 233
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:31:54,604  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "c72pmHuft8M4wkcquLnNxPK8BcaBkQHVfzNPeNyjwvs7wO4V0t0gxEilntQ4QcEdBIv1hiB4TaY1Q0ASyZOBqgHh8Xf3u5NW7jzw…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3RieENvbXBhbnlDb2RlIjp7IlRleHQiOiJJQk0ifSwiV2luZG93MV9TaW1wbGVGb3JtMV90…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:31:54 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1345
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: Hm_lvt_8875c662941dbf07e39c556c8d97615f=1474987910; Abp.Localization.CultureName=ja; ASP.NET_SessionId=wc2hj1vnfhbhlnndyx2xh1f1; MenuStyle_Pro=tree; MenuMode_Pro=large; Theme_Pro=bootstrap_pure; __ANTICSRF=7eeff3ee34bf4cf1a68883000fe73230; userCompanyInfo=companyCode=system&userName=sysadmin; userKey=companyCode=IBM&userName=admin
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 233
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:35:51,145  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "tcakY5U/dxZ91o4Lg3RNY3tby1cFzIVaWd1+e5Vjl+dnArgyaTBKlHoeNrDcpgOla5+C6FCnw4fzktDX1RAoJya9/W42ZxU9/3AS…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3BhbmVsQ2FwdGNoYSI6eyJIaWRkZW4iOnRydWV9fQ=="
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:35:51 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1217
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 232
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:35:53,652  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "tcakY5U/dxZ91o4Lg3RNY3tby1cFzIVaWd1+e5Vjl+dnArgyaTBKlHoeNrDcpgOla5+C6FCnw4fzktDX1RAoJya9/W42ZxU9/3AS…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3BhbmVsQ2FwdGNoYSI6eyJIaWRkZW4iOnRydWV9fQ=="
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:35:53 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1217
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 232
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:36:36,314  ERROR - URL: http://localhost:51441/default.aspx
+
+Decrypted URL:
+http://localhost:51441/default.aspx?
+Referrer: http://localhost:51441/
+POST data:
+ * __EVENTTARGET = "Window1$Toolbar1$btnLogin"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "fqXiAz7oqAoLyB9K5F2ZmR1PKGeJv4/NSiyhhxyvMfy6CUlvUgDWWp+6d1fC+Sio3ymHtkIzChBkOWQHdnpMd+CyUzaEFKcR614B…"
+ * __VIEWSTATEGENERATOR = "CA0B0334"
+ * Window1$SimpleForm1$tbxCompanyCode = "IBM"
+ * Window1$SimpleForm1$tbxUserName = "admin"
+ * Window1$SimpleForm1$tbxPassword = "test"
+ * Window1$SimpleForm1$panelCaptcha$tbxCaptcha = ""
+ * F_TARGET = "Window1_Toolbar1_btnLogin"
+ * Window1_ContentPanel1_Collapsed = "false"
+ * Window1_SimpleForm1_panelCaptcha_Collapsed = "false"
+ * Window1_SimpleForm1_Collapsed = "false"
+ * Window1_Toolbar1_linkFindPassword_Domed = "false"
+ * Window1_Toolbar1_btnLogin_Domed = "false"
+ * Window1_Toolbar1_Domed = "false"
+ * Window1_Collapsed = "false"
+ * Window1_Hidden = "false"
+ * F_STATE = "eyJXaW5kb3cxX1NpbXBsZUZvcm0xX3RieENvbXBhbnlDb2RlIjp7IlRleHQiOiJJQk0ifSwiV2luZG93MV9TaW1wbGVGb3JtMV90…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:36:36 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 1425
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp
+  Host: localhost:51441
+  Referer: http://localhost:51441/
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentException: 列“CompanyCode”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Infobasis.Web.Data.UserInfo..ctor(DataRow person) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 54
+   在 Infobasis.Web.Data.UserInfo.VerifyUser(String companyCode, String userName, String password, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\UserInfo.cs:行号 232
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl, Boolean isGuest) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 84
+   在 Infobasis.Web.Data.Authentication.FormsLogin(String companyCode, String userName, String password, String returnUrl) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Data\Authentication.cs:行号 73
+   在 Infobasis.Web._default.PerformLogin(String companyCode, String userName, String password) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 121
+   在 Infobasis.Web._default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Default.aspx.cs:行号 92
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:36:54,683  ERROR - URL: http://localhost:51441/Main.aspx
+
+Decrypted URL:
+http://localhost:51441/Main.aspx?
+----------------------------------------------------------
+UserInfo: .
+Date/Time: 11 3月 2017, 10:36:54 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp
+  Host: localhost:51441
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Infobasis.Web.Main.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Main.aspx.cs:行号 420
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-11 22:42:40,106  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

@@ -1,0 +1,267 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cloud.aspx.cs" Inherits="Infobasis.Web.Pages.OA.Cloud" 
+     MasterPageFile="~/PageMaster/Vue.master" %>
+
+<asp:Content ID="HeadContent" runat="server" ContentPlaceHolderID="HeadContent">
+    <link type="text/css" rel="stylesheet" href="/res/css/modal.css" />
+    <style>
+        .folder-list-entry {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .folder-list-entry li {
+            position: relative;
+            font-size: 16px;
+            border-bottom: 1px solid #ededed;
+        }
+        .folder-list-entry li a {
+            word-break: break-all;
+            padding: 15px 60px 15px 15px;
+            display: block;
+            line-height: 1.2;
+            transition: color 0.4s;
+            text-decoration: none;
+            color: #1b6aaa;
+        }
+
+        .folder-list-entry li a i {
+            padding-right: 2px;
+        }
+
+        .router-link-active {
+            text-decoration: none;
+            color: #1b6aaa;
+        }
+        .router-link-active:hover {
+            color: #111;
+        }
+        .float-right {
+            float: right;
+        }
+        .body-box {
+            border-top: 1px solid #ddd;
+            margin-top: 10px;        
+        }
+        .folder-list,
+        .upload-list {
+            padding: 0;
+        }
+        .folder-list li,
+        .upload-list li {
+            list-style:none;
+        }
+
+        .folder-list li {
+            position: relative;
+            font-size: 16px;
+            border-bottom: 1px solid #ededed;
+        }
+        .folder-list li a {
+            word-break: break-all;
+            padding: 15px 60px 15px 0;
+            display: block;
+            line-height: 1.2;
+            transition: color 0.4s;
+            text-decoration: none;
+            color: #1b6aaa;
+        }
+
+    </style>
+    <script src="/res/js/vue2-dropzone.js"></script>
+
+</asp:Content>
+<asp:Content ID="MainContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div id="app">
+        <transition>
+        <router-view class="router-view"></router-view>
+        </transition>
+        <modal v-if="showModal" @close="showModal = false" @save="saveData">
+            <h3 slot="header">添加文件夹</h3>
+            <div slot="body">
+                <input type="text" autofocus="true" v-model="newFolderName" size="30" />
+            </div>
+        </modal>
+    </div>
+</asp:Content>
+<asp:Content ID="ScriptContent" runat="server" ContentPlaceHolderID="ScriptContent">
+    <script type="text/x-template" id="home-template">
+        <ul class="folder-list-entry">
+            <li><div class="view">
+                    <router-link to="/cloud/my"><i class="fa fa-folder-open-o" aria-hidden="true"></i>我的文件</router-link>
+                </div>
+            </li>
+            <li><div class="view">
+                <router-link to="/cloud/public"><i class="fa fa-folder-open-o" aria-hidden="true"></i>共享文件</router-link>
+                </div>
+            </li>
+        </ul>
+    </script>
+    <script type="text/x-template" id="my-template">
+        <div><a href="javascript:void(0);" @click="$root._router.go(-1)"><i class="fa fa-angle-left" aria-hidden="true" title="返回"></i></a>
+            <div class="float-right">
+                <i class="fa fa-plus" aria-hidden="true" @click="showModalBox" title="添加文件夹"></i>
+                <i class="fa fa-cloud-upload" aria-hidden="true"  @click="showModalBox" title="上传文件"></i>
+            </div>
+            <div class="body-box">
+               <div class="no-file-msg" v-if="$root.uploads == null || $root.uploads.length == 0">没有文件</div>
+               <ul class="upload-list">
+                   <li v-for="item in $root.uploads">{{item.text}}</li>
+               </ul>
+               <ul class="folder-list">
+                   <li v-for="item in $root.folders"><a href="#">{{item.text}}</a></li>
+               </ul>
+            </div>
+        </div>
+    </script>
+    <script type="text/x-template" id="public-template">
+        <div><router-link to="/"><i class="fa fa-angle-left" aria-hidden="true" title="返回"></i></router-link></div>
+    </script>
+    <!-- template for the modal component -->
+    <script type="text/x-template" id="modal-template">
+      <transition name="modal">
+        <div class="modal-mask">
+          <div class="modal-wrapper">
+            <div class="modal-container">
+
+              <div class="modal-header">
+                <slot name="header">
+                  default header
+                </slot>
+              </div>
+
+              <div class="modal-body">
+                <slot name="body">
+                  default body
+                </slot>
+              </div>
+
+              <div class="modal-footer">
+                <slot name="footer">
+                  default footer
+                  <button class="modal-default-button" @click="$emit('save')">
+                    保存
+                  </button>                  
+                  <button class="modal-default-button" @click="$emit('close')">
+                    关闭
+                  </button>
+                </slot>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+    </script>
+
+    <script type="text/x-template" id="upload-template">
+      <input
+        type="file"
+        :name="$parent.name"
+        :id="$parent.id || $parent.name"
+        :accept="$parent.accept"
+        @change="change"
+        :multiple="$parent.multiple && $parent.mode === 'html5'"
+      />
+    </script>
+
+  <script>
+
+      var InputFile = {
+          template: '#upload-template',
+          methods: {
+              change: function(e) {
+                this.$destroy();
+                this.$parent.addInputFile(e.target);
+              }
+          },
+          props: {
+              name: {
+                  type: String,
+                  default: 'file',
+              },
+              drop: {
+                  default: false,
+              },
+              multiple: {
+                  type: Boolean,
+              },
+              timeout: {
+                  type: Number,
+                  default: 0,
+              }
+          }
+      };
+
+      Vue.component('upload-file', InputFile);
+
+      var MyCloud = {
+          template: '#my-template',
+          props: ['data'],
+          methods: {
+              showModalBox: function () {
+                  this.$root.showModal = true
+              },
+              saveData: function () {
+                  console.log('A file was successfully uploaded');
+                  console.log(this.$root);         
+              },
+              showSuccess: function (file) {
+                  console.log('A file was successfully uploaded')
+              }
+          },
+          data: function () {
+              return {
+              }
+          }
+      };
+      var PublicCloud = {
+          template: '#public-template'
+      };
+      var Home = {
+          template: '#home-template'
+      };
+
+      var router = new VueRouter({
+          routes: [
+            //{ path: '/', redirect: { name: 'home' }},
+            { path: '/', name: 'home', component: Home },
+            { path: '/cloud/my', name: 'my', component: MyCloud },
+            { path: '/cloud/public', name: 'public', component: PublicCloud }
+          ]
+      });
+
+      Vue.component('modal', {
+          template: '#modal-template'
+      });
+
+      //var app = new Vue({ router }).$mount('#app');
+      var app = new Vue({
+          el: '#app',
+          router: router,
+          data: function () {
+              return {
+                  showModal: false,
+                  newFolderName: '',
+                  folders: [
+                      { text: '文件夹一' },
+                      { text: '文件夹二' }
+                  ],
+                  uploads: [
+                      { text: '学习 JavaScript' },
+                      { text: '学习 Java' }
+                  ]
+              }
+          },
+          methods: {
+              saveData: function () {
+                  var val = app.newFolderName;
+                  if (val != null && val.length > 0) {
+                      app.folders.push({ text: app.newFolderName });
+                      app.showModal = false;
+                      app.newFolderName = '';
+                  }
+              }
+          }
+      });
+
+</script>
+</asp:Content>

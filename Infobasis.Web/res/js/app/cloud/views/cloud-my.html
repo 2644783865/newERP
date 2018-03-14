@@ -1,0 +1,100 @@
+﻿        <div><a href back-button><i class="fa fa-angle-left" aria-hidden="true" title="返回"></i> {{currentFolderInfo.name}}</a>
+            <div class="float-right">
+                <i class="fa fa-plus" aria-hidden="true" ng-click="showModalBox()" title="添加文件夹"></i>
+                <i class="fa fa-cloud-upload" aria-hidden="true" ng-if="canUpload" ng-click="showUploadBoxFn()" title="上传文件"></i>
+            </div>
+            <div class="body-box" data-ng-mousedown="inactiveEditFileName($event)">
+               <div ng-if="canUpload">
+                    <div nv-file-drop="" uploader="uploader" options="{ url: '/foo' }" ng-show="showUploadBox">
+                        <div nv-file-over="" uploader="uploader" over-class="another-file-over-class" class="well my-drop-zone" ng-click="clickUpload()">
+                            <i class="fa fa-plus" aria-hidden="true"  style="font-size:60px" ng-click="clickUpload();$event.stopPropagation();" title="上传文件"></i>
+                            <span style="display:block">点击或拖放文件在这上传</span>
+                        </div>
+                    </div>
+                    <input type="file" id="fileInput" nv-file-select="" uploader="uploader" multiple ng-show="false" /><br/>
+
+                   <ul class="upload-list">
+                   <li ng-repeat="item in uploader.queue">
+                       <div ng-if="controller.isImage(item._file)" ng-thumb="{ file: item._file, width: 100, height: 100 }"></div>
+                       <div ng-show="uploader.isHTML5"><strong>{{ item.file.name }}</strong> ({{ item.file.size/1024/1024|number:2 }} MB)</div>
+                       <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+
+                        <div>
+                            <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                <i class="fa fa-cloud-upload" aria-hidden="true"></i> 上传
+                            </button>
+                            <button type="button" class="btn btn-warning btn-xs" ng-click="item.cancel()" ng-disabled="!item.isUploading">
+                                <i class="fa fa-circle-o" aria-hidden="true"></i> 取消
+                            </button>
+                            <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove()">
+                               <i class="fa fa-trash" aria-hidden="true"></i> 移除
+                            </button>
+
+                            <span class="upload-status" ng-show="item.isSuccess"><i class="fa fa-check"></i></span>
+                            <span class="upload-status" ng-show="item.isCancel"><i class="fa fa-circle"></i></span>
+                            <span class="upload-status" ng-show="item.isError"><i class="fa fa-exclamation-triangle"></i></span>
+
+                        </div>
+
+                   </li>
+                   </ul>
+                    <div ng-show="uploader.queue.length">
+                        <div>
+                            总进度: {{ uploader.progress }}
+                            <div class="total-progress-box">
+                                <div class="total-progress" ng-style="{ 'width': uploader.progress + '%' }"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-success btn-xs" ng-click="uploader.uploadAll()" ng-disabled="!uploader.getNotUploadedItems().length">上传全部</button>
+                        <button class="btn btn-warning btn-xs" ng-click="uploader.cancelAll()" ng-disabled="!uploader.isUploading">取消全部</button>
+                        <button class="btn btn-danger btn-xs" ng-click="uploader.clearQueue()" ng-disabled="!uploader.queue.length">移除全部</button>
+                    </div>
+
+                   <div style="clear:both"></div>
+                   <ul class="upload-list">
+                       <li data-ng-repeat="(itemIndex, upload) in uploads">
+                           <a data-ng-click='openPhotoSwipe(upload, itemIndex)'><img class="img-upload" data-org-isImage="{{upload.isValidImage}}" data-org-src="{{upload.originFilePath}}" alt="{{upload.clientName}}" data-ng-src="{{upload.filePath}}" /></a>
+                           <span data-ng-click="editFileName(upload)" data-ng-show="curFileID != upload.id">{{upload.clientName}}</span>
+                           <div style="position:absolute;">
+                               <input data-ng-show="curFileID == upload.id" type="text" data-ng-model="upload.clientName" class="form-control w-180" data-ng-keydown="updateFileName($event, upload)"/>
+                           </div>
+                       </li>
+                   </ul>
+               </div>
+               <ul class="folder-list">
+                   <li ng-repeat="folder in folders"><a data-ng-href="#{{routeRoot}}/{{folder.code}}"><i class="fa fa-folder-o" aria-hidden="true"></i> {{folder.name}}</a></li>
+               </ul>
+               <div class="no-file-msg" ng-if="(uploads == null || uploads.length == 0) && (folders == null || folders.length == 0)">没有文件或文件夹</div>
+            </div>
+        </div>
+
+        <div class="modal-mask" ng-show="showModal">
+          <div class="modal-wrapper">
+            <div class="modal-container">
+
+              <div class="modal-header">
+                <div>
+                  新建文件夹
+                </div>
+              </div>
+
+              <div class="modal-body">
+                <div>
+                  <input type="text" autofocus ng-model="newFolderName" size="30" />
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <div>
+                  <span>输入文件夹名称, 点击保存</span>
+                  <button class="modal-default-button" ng-click="saveData()" style="margin-left:2px">
+                    保存
+                  </button>                  
+                  <button class="modal-default-button" ng-click="closeModal()">
+                    关闭
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

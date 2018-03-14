@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SPA.master.cs" Inherits="Infobasis.Web.PageMaster.SPA" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="infobasisApp">
+<head id="Head1" runat="server">
+    <title>系统</title>
+    <script src="/res/js/jquery-1.8.3.min.js"></script>
+    <script src="/res/js/angular.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="/res/css/inner.css" />
+    <link type="text/css" rel="stylesheet" href="/res/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="/res/css/modal.css" />
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.css' type='text/css' media='all' />
+
+    <style>
+        #loading-bar .bar {
+          position: relative;
+        }
+    </style>
+    <script type="text/javascript">
+        var pageSetting = {};
+        pageSetting.apiUrl = '<%# Infobasis.Web.Global.WebApiRootUrl %>';
+        pageSetting.siteRootPath = '<%# Infobasis.Web.Global.SiteRootPath %>';
+
+        function refreshWindow(queryString) {
+            top.window.refreshWindow(queryString);
+        }
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="MainContainer SPAApp">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <script src="/res/js/angular-file-upload.min.js"></script>
+    <script src="/res/js/angular-route.min.js"></script>
+    <script src="/res/js/angular-sanitize.min.js"></script>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js'></script>
+    <script src="/res/js/axios.min.js"></script>
+    <script src="/res/js/api.js"></script>
+    <script src="/res/js/moment.js"></script>
+    <script src="/res/js/app/app.js"></script>
+
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>

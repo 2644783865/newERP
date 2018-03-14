@@ -1,0 +1,112 @@
+[
+  {
+    "name": "cloud",
+    "icon": "&#xe624;",
+    "title": "云盘"
+  },  
+  {
+    "name": "actionsheet",
+    "icon": "&#xe624;",
+    "title": "OA办公"
+  },
+  {
+    "name": "alert",
+    "icon": "&#xe603;",
+    "title": "业务部"
+  },
+  {
+    "name": "badge",
+    "icon": "&#xe65b;",
+    "color": "#f74c31",
+    "title": "设计部"
+  },
+  {
+    "name": "blur",
+    "icon": "&#xe640;",
+    "title": "人事管理"
+  },
+  {
+    "name": "button-tab",
+    "icon": "&#xe659;",
+    "items": [
+      "button-tab",
+      "button-tab-item"
+    ],
+    "title": "产品管理"
+  },
+  {
+    "name": "calendar",
+    "icon": "&#xe62b;",
+    "title": "商务管理"
+  },
+  {
+    "name": "card",
+    "icon": "&#xe658;",
+    "title": "工程管理"
+  },
+  {
+    "name": "cell-box",
+    "icon": "&#xe62a;",
+    "title": "客服管理"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe62a;",
+    "title": "财务管理"
+  },
+  {
+    "name": "cell-form-preview1",
+    "icon": "&#xe62a;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview2",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview3",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview4",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  },
+  {
+    "name": "cell-form-preview",
+    "icon": "&#xe658;",
+    "title": "测试模块"
+  }
+]

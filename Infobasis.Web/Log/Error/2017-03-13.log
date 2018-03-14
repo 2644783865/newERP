@@ -1,0 +1,1409 @@
+2017-03-13 20:57:09,270  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 20:58:00,259  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "b01sSWu5GZ+uX5O75dDVGDDXI3glS4COr/cXoo4FZUiqrNCQ8j2QJwFOmNgC/l+RS1WsnanPEJk6B1Y+M5zsBuaDyL7qyAtDDUht…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 08:58:00 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6451
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: A specified Include path is not valid. The EntityType 'Infobasis.Data.PermissionRole' does not declare a navigation property with the name 'User'.
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter.ConvertSpanPath(SpanPathInfo parentInfo, List`1 navPropNames, Int32 pos)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter..ctor(DbCommandTree tree, DbExpression toRewrite, Span span, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectSpanRewriter.TryRewrite(DbQueryCommandTree tree, Span span, MergeOption mergeOption, AliasGenerator aliasGenerator, DbExpression& newQuery, SpanIndex& spanInfo)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 205
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:01:33,150  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "usSQ88o3FLMbAn03u8K/mM8nCUXbqocZedfwekTlENBen+jBusG6gO0Ic9KZSkjUzEHh6VK3SsZOHHo/1Exb2f5wr+Ct1PYWUzKm…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:01:33 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6500
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: A specified Include path is not valid. The EntityType 'Infobasis.Data.PermissionRole' does not declare a navigation property with the name 'User'.
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter.ConvertSpanPath(SpanPathInfo parentInfo, List`1 navPropNames, Int32 pos)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter.AddSpanPath(SpanPathInfo parentInfo, List`1 navPropNames)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter..ctor(DbCommandTree tree, DbExpression toRewrite, Span span, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectSpanRewriter.TryRewrite(DbQueryCommandTree tree, Span span, MergeOption mergeOption, AliasGenerator aliasGenerator, DbExpression& newQuery, SpanIndex& spanInfo)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 205
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:06:00,411  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "usSQ88o3FLMbAn03u8K/mM8nCUXbqocZedfwekTlENBen+jBusG6gO0Ic9KZSkjUzEHh6VK3SsZOHHo/1Exb2f5wr+Ct1PYWUzKm…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:06:00 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6507
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: A specified Include path is not valid. The EntityType 'Infobasis.Data.PermissionRole' does not declare a navigation property with the name 'User'.
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter.ConvertSpanPath(SpanPathInfo parentInfo, List`1 navPropNames, Int32 pos)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter.AddSpanPath(SpanPathInfo parentInfo, List`1 navPropNames)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectFullSpanRewriter..ctor(DbCommandTree tree, DbExpression toRewrite, Span span, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectSpanRewriter.TryRewrite(DbQueryCommandTree tree, Span span, MergeOption mergeOption, AliasGenerator aliasGenerator, DbExpression& newQuery, SpanIndex& spanInfo)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 205
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:07:40,439  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "1vSG61PjYqNNNQ2wLihXk/soj5ZWCI/SIjfw7BmbVwZbwfvBLNjTDXbP9HtQKVJVeIBzPz7ViOwsnSCw0WLPor8tGoYZKN4rKSiZ…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:07:40 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6498
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 207
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:09:48,139  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "1vSG61PjYqNNNQ2wLihXk/soj5ZWCI/SIjfw7BmbVwZbwfvBLNjTDXbP9HtQKVJVeIBzPz7ViOwsnSCw0WLPor8tGoYZKN4rKSiZ…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:09:48 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6498
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 207
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:10:04,940  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "1vSG61PjYqNNNQ2wLihXk/soj5ZWCI/SIjfw7BmbVwZbwfvBLNjTDXbP9HtQKVJVeIBzPz7ViOwsnSCw0WLPor8tGoYZKN4rKSiZ…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:10:04 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6505
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 207
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:13:40,166  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "3dhcHWmvHjSEFNFVm6p/BpdLEJdfg4Vz/SVvsLsividoiPUeijTQZJOvdJLVGyhhRag/UCfhP0TqfF60Rq+SfBq4B2NB8ajmMD0m…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:13:40 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6434
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: The operation failed: The relationship could not be changed because one or more of the foreign-key properties is non-nullable. When a change is made to a relationship, the related foreign-key property is set to a null value. If the foreign-key does not support null values, a new relationship must be defined, the foreign-key property must be assigned another non-null value, or the unrelated object must be deleted.
+   在 System.Data.Entity.Core.Objects.ObjectContext.PrepareToSaveChanges(SaveOptions options)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 212
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:13:52,652  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "3dhcHWmvHjSEFNFVm6p/BpdLEJdfg4Vz/SVvsLsividoiPUeijTQZJOvdJLVGyhhRag/UCfhP0TqfF60Rq+SfBq4B2NB8ajmMD0m…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:13:52 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6434
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: The operation failed: The relationship could not be changed because one or more of the foreign-key properties is non-nullable. When a change is made to a relationship, the related foreign-key property is set to a null value. If the foreign-key does not support null values, a new relationship must be defined, the foreign-key property must be assigned another non-null value, or the unrelated object must be deleted.
+   在 System.Data.Entity.Core.Objects.ObjectContext.PrepareToSaveChanges(SaveOptions options)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 212
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:15:33,934  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2"
+ * __EVENTARGUMENT = "Command$frow0$0$deleteField$Delete$"
+ * __VIEWSTATE = "SztF1wg0aiLSF1UuyrssS0Fqfc42iTCwbH+eJ5bHiEVZR0B8QvrlEF3BgHGIR23okM4ZTxyy19Es9mict1Otr3Ev7amHKOyzlsoo…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow5","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow5"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedCell = "["frow0","deleteField"]"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:15:33 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6492
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.InvalidOperationException: The operation failed: The relationship could not be changed because one or more of the foreign-key properties is non-nullable. When a change is made to a relationship, the related foreign-key property is set to a null value. If the foreign-key does not support null values, a new relationship must be defined, the foreign-key property must be assigned another non-null value, or the unrelated object must be deleted.
+   在 System.Data.Entity.Core.Objects.ObjectContext.PrepareToSaveChanges(SaveOptions options)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid2_RowCommand(Object sender, GridCommandEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 212
+   在 FineUIPro.Grid.OnRowCommand(GridCommandEventArgs e)
+   在 (Grid , GridCommandEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:20:14,835  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region2$Grid2$Toolbar1$btnDeleteSelected"
+ * __EVENTARGUMENT = ""
+ * __VIEWSTATE = "EXVPQHTF03fFWkVZaR7Rykb1eLnsQTQYl6i+wZd2G9ifrtFTMUpBTFCyn64h7i9G2niLpKcWlHYJrjME1+Pe7PayHsZp7zcOr+dY…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedCell = "["frow4","ctl00_MainContent_RegionPanel1_Region1_Grid1_ctl01"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SelectedRows = "["frow4"]"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+ * F_TARGET = "ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SelectedRows = "["frow0"]"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:20:14 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 6453
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 Infobasis.Web.Pages.Admin.UserRole.btnDeleteSelected_Click(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 177
+   在 FineUIPro.Button.OnClick(EventArgs e)
+   在 (Button , EventArgs )
+   在 FineUIPro.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:21:45,972  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 21:36:59,959  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 21:46:05,033  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:46:05 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 53
+   在 Infobasis.Web.Pages.Admin.UserRole.LoadData() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 33
+   在 Infobasis.Web.Pages.Admin.UserRole.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:46:10,643  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Main.aspx
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:46:10 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Main.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 53
+   在 Infobasis.Web.Pages.Admin.UserRole.LoadData() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 33
+   在 Infobasis.Web.Pages.Admin.UserRole.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:46:25,077  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:46:25 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 53
+   在 Infobasis.Web.Pages.Admin.UserRole.LoadData() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 33
+   在 Infobasis.Web.Pages.Admin.UserRole.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 22
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:55:23,441  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region1$Grid1"
+ * __EVENTARGUMENT = "Sort$CountofUsers$ASC"
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __VIEWSTATE = "Mz7YrvXwrMLdEYZq5opCTCDDlfB89R2ftVCJTbqY21bCspgAIjtjqreQJmiCC7GYnWM46hOD05MhIZjrvH3QHE589IGbfk9KXqlf…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "CountofUsers"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "ASC"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:55:23 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 7182
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.NotSupportedException: The specified type member 'CountofUsers' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberAccessTranslator.TypedTranslate(ExpressionConverter parent, MemberExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 51
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid1_Sort(Object sender, GridSortEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 118
+   在 FineUIPro.Grid.OnSort(GridSortEventArgs e)
+   在 (Grid , GridSortEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:55:27,797  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region1$Grid1"
+ * __EVENTARGUMENT = "Sort$CountofUsers$DESC"
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __VIEWSTATE = "Mz7YrvXwrMLdEYZq5opCTCDDlfB89R2ftVCJTbqY21bCspgAIjtjqreQJmiCC7GYnWM46hOD05MhIZjrvH3QHE589IGbfk9KXqlf…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "CountofUsers"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:55:27 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 7184
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.NotSupportedException: The specified type member 'CountofUsers' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberAccessTranslator.TypedTranslate(ExpressionConverter parent, MemberExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 51
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid1_Sort(Object sender, GridSortEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 118
+   在 FineUIPro.Grid.OnSort(GridSortEventArgs e)
+   在 (Grid , GridSortEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:55:31,804  ERROR - URL: http://localhost:51441/Pages/Admin/UserRole.aspx
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserRole.aspx?
+Referrer: http://localhost:51441/Pages/Admin/UserRole.aspx
+POST data:
+ * __EVENTTARGET = "ctl00$MainContent$RegionPanel1$Region1$Grid1"
+ * __EVENTARGUMENT = "Sort$CountofUsers$ASC"
+ * __ANTICSRF = "29b13cb18af94268a27bc9ea675be210"
+ * __VIEWSTATE = "rlB22ljqAlDsPlqHQnoPi9VkDXUI1gzmQTKvxoUshPuK3vAYHjfEDgMn3rT63/UyORcgUxJoRWK8NztHXjYAwQyL1GGHEbPmY2hF…"
+ * __VIEWSTATEGENERATOR = "78D94E84"
+ * ctl00$MainContent$RegionPanel1$Region2$Form3$FormRow2$ttbSearchUser = ""
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_pagingToolbar_pageNumberBox = "1"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize$Value = "10"
+ * ctl00$MainContent$RegionPanel1$Region2$Grid2$ddlGridPageSize = "10"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortField = "CountofUsers"
+ * ctl00_MainContent_RegionPanel1_Region1_Grid1_SortDirection = "ASC"
+ * ctl00_MainContent_RegionPanel1_Region1_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_FormRow2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Form3_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnDeleteSelected_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_ToolbarFill1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_btnNew_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Toolbar1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarSeparator1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ToolbarText1_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_ddlGridPageSize_Domed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_PageIndex = "0"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortField = "Name"
+ * ctl00_MainContent_RegionPanel1_Region2_Grid2_SortDirection = "DESC"
+ * ctl00_MainContent_RegionPanel1_Region2_Collapsed = "false"
+ * ctl00_MainContent_RegionPanel1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Collapsed = "false"
+ * ctl00_MainContent_Window1_Hidden = "true"
+ * F_STATE = "eyJjdGwwMF9NYWluQ29udGVudF9SZWdpb25QYW5lbDFfUmVnaW9uMV9HcmlkMSI6eyJSZWNvcmRDb3VudCI6NiwiRl9Sb3dzIjpb…"
+ * F_AJAX = "true"
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 09:55:31 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Content-Length: 8259
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Accept: text/plain, */*; q=0.01
+  Accept-Encoding: gzip, deflate, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Pages/Admin/UserRole.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Origin: http://localhost:51441
+  X-Requested-With: XMLHttpRequest
+----------------------------------------------------------
+Exception: 
+System.NotSupportedException: The specified type member 'CountofUsers' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberAccessTranslator.TypedTranslate(ExpressionConverter parent, MemberExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserRole.BindGrid1() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 51
+   在 Infobasis.Web.Pages.Admin.UserRole.Grid1_Sort(Object sender, GridSortEventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserRole.aspx.cs:行号 118
+   在 FineUIPro.Grid.OnSort(GridSortEventArgs e)
+   在 (Grid , GridSortEventArgs )
+   在 FineUIPro.Grid.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 21:57:06,403  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 21:57:08,170  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 21:57:22,947  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 21:57:34,497  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 22:07:56,107  ERROR - URL: http://localhost:51441/Pages/Admin/UserView.aspx?id=1010
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserView.aspx?id=1010&
+Referrer: http://localhost:51441/Main.aspx
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 10:07:56 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Main.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Infobasis.Web.Pages.Admin.UserView.<LoadData>b__0(UserPermissionRole r) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 47
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserView.LoadData() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 47
+   在 Infobasis.Web.Pages.Admin.UserView.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 19
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 22:08:00,020  ERROR - URL: http://localhost:51441/Pages/Admin/UserView.aspx?id=1010
+
+Decrypted URL:
+http://localhost:51441/Pages/Admin/UserView.aspx?id=1010&
+Referrer: http://localhost:51441/Main.aspx
+
+----------------------------------------------------------
+UserInfo: UserName:sysadmin; ChineseName:系统管理员; EmailAddress:; CompanyID:1003; EmployeeID:0..
+Date/Time: 13 3月 2017, 10:08:00 下午.
+Remote address: ::1
+InfoBasis.Web.dll version: 1.0.0.0
+Request headers:
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8
+  Cookie: ASP.NET_SessionId=yko5xzazgdonom0yfrt4dxlp; __ANTICSRF=29b13cb18af94268a27bc9ea675be210; userKey=companyCode=system&userName=sysadmin; .ASPXAUTH=B8915D050F4008385F1A310EBA5609DC2F73C624E9B29599962B2C804B488BE401B0779DA1B1EC19AD6AE96BB2049F512213C789334D0B23F8EC1270AE82B5DFE9FD7EC1FD8344DD130BDE41BAB9B520A8F3C5AE20182D92D990B99CDC5B2C7277D3B1174575547B06531F9F6CA9B908
+  Host: localhost:51441
+  Referer: http://localhost:51441/Main.aspx
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3013.3 Safari/537.36
+  Upgrade-Insecure-Requests: 1
+----------------------------------------------------------
+Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Infobasis.Web.Pages.Admin.UserView.<LoadData>b__0(UserPermissionRole r) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 47
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 Infobasis.Web.Pages.Admin.UserView.LoadData() 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 47
+   在 Infobasis.Web.Pages.Admin.UserView.Page_Load(Object sender, EventArgs e) 位置 c:\Work\NET2\Infobasis\Infobasis\Infobasis.Web\Pages\Admin\UserView.aspx.cs:行号 19
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+----------------------------------------------------------
+
+2017-03-13 22:10:32,453  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 22:11:19,625  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2017-03-13 22:19:56,761  ERROR - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 (Page , EventHandler )
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor(Page page)
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb..ctor()
+   在 ()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.GItjSKwZereCvEbhZrmnkeyhAXhbA()
+   在 cuHuzQWDLiiEJoFQemihXVknkuFb.XXngDfHNSxtzLNgDQUoMYxQurCIJ(Page )
+   在 FineUIPro.ControlBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

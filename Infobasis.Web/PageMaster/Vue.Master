@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Vue.master.cs" Inherits="Infobasis.Web.PageMaster.Vue" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>系统</title>
+    <script src="/res/js/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="/res/js/moment.js"></script>
+    <link type="text/css" rel="stylesheet" href="/res/css/inner.css" />
+    <link type="text/css" rel="stylesheet" href="/res/css/font-awesome.min.css" />
+    <script type="text/javascript">
+        var pageSetting = {};
+        pageSetting.apiUrl = '<%# Infobasis.Web.Global.WebApiRootUrl %>';
+        pageSetting.siteRootPath = '<%# Infobasis.Web.Global.SiteRootPath %>';
+
+        function refreshWindow(queryString) {
+            top.window.refreshWindow(queryString);
+        }
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="MainContainer VueApp">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

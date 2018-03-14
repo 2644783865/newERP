@@ -1,0 +1,49 @@
+﻿        <div><a href back-button><i class="fa fa-angle-left" aria-hidden="true" title="返回"></i> {{currentFolderInfo.name}}</a>
+            <div class="float-right">
+                <i class="fa fa-plus" aria-hidden="true" ng-click="showModalBox()" title="添加文件夹"></i>
+                <i class="fa fa-cloud-upload" aria-hidden="true" ng-if="canUpload" ng-click="showModalBox()" title="上传文件"></i>
+            </div>
+            <div class="body-box">
+               <div class="no-file-msg" ng-if="(uploads == null || uploads.length == 0) && (folders == null || folders.length == 0)">没有文件</div>
+               <ul class="upload-list" ng-if="canUpload">
+                   <li ng-repeat="upload in uploads">
+                       <img class="img-upload" alt="140x140" data-ng-src="{{upload.src ? ee.src : './content/images/default_portrait.jpg'}}" style="width: 60px; height: 60px;" />
+                       <span>{{upload.text}}</span>
+                   </li>
+               </ul>
+               <ul class="folder-list">
+                   <li ng-repeat="folder in folders"><a ng-href="#/cloud/my/{{folder.code}}">{{folder.name}}</a></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="modal-mask" ng-show="showModal">
+          <div class="modal-wrapper">
+            <div class="modal-container">
+
+              <div class="modal-header">
+                <div>
+                  新建文件夹
+                </div>
+              </div>
+
+              <div class="modal-body">
+                <div>
+                  <input type="text" autofocus ng-model="newFolderName" size="30" />
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <div>
+                  <span>输入文件夹名称, 点击保存</span>
+                  <button class="modal-default-button" ng-click="saveData()" style="margin-left:2px">
+                    保存
+                  </button>                  
+                  <button class="modal-default-button" ng-click="closeModal()">
+                    关闭
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

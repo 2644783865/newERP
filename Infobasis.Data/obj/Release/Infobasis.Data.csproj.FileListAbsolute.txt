@@ -1,0 +1,15 @@
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\Infobasis.Data.dll.config
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\Infobasis.Data.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\Infobasis.Data.pdb
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.Extended.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\JWT.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\Newtonsoft.Json.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.xml
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.Extended.xml
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\bin\Release\Newtonsoft.Json.xml
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\obj\Release\Infobasis.Data.csprojResolveAssemblyReference.cache
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\obj\Release\Infobasis.Data.dll
+C:\Work\NET2\Infobasis\Infobasis\Infobasis.Data\obj\Release\Infobasis.Data.pdb
